@@ -1,0 +1,8 @@
+**/__pycache__
+**/*.pyc
+**/staticfiles
+**/mediafiles
+**/.git
+**/.idea
+**/.vscode
+venv/

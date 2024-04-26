@@ -26,7 +26,7 @@ SECRET_KEY = 'YOUR_SECRET_KEY'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['192.168.212.1', '127.0.0.1', 'fspmainservice.onrender.com']
+ALLOWED_HOSTS = ['192.168.212.1', '127.0.0.1', 'localhost']
 
 
 # Application definition
@@ -99,11 +99,11 @@ WSGI_APPLICATION = 'back.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'innofreshmarket',
+        'NAME': 'spda',
         'USER': 'postgres',
-        'PASSWORD': '296642SR',
-        'HOST': 'localhost',
-        'PORT': '5432'
+        'HOST': 'db',
+        'PORT': '5432',
+        'PASSWORD': '12345'
     }
 }
 
