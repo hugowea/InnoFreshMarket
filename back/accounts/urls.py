@@ -4,6 +4,7 @@ from rest_framework_simplejwt.views import TokenObtainPairView, TokenRefreshView
 
 from accounts.views import *
 
+app_name = 'accounts'
 router = DefaultRouter()
 router.register(r"", UserViewSet)
 
